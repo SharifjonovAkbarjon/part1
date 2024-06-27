@@ -1,0 +1,1062 @@
+.header{
+    width: 100%;
+    background: rgba(1, 78, 86, 1);
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 129px;
+
+    .collection{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 77px;
+
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            
+            .logo__img{
+                display: flex;
+                align-items: center;
+                
+            }  
+
+            .navbar__home{
+                display: flex;
+
+                ul{
+                    display: flex;
+                    gap: 40px;
+                    list-style: none;
+
+                    li{
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(255, 255, 255, 1);
+                        transition: .7s;
+                        
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+
+                            
+                        }
+
+                    }
+                }
+            }
+        } 
+
+        .buttons{
+            display: flex;
+
+            .navbar__btn{
+                display: flex;
+
+                button{
+                    padding: 9px 33px 11px;
+                    background: transparent;
+                    border: 2px solid rgba(255, 255, 255, 1);
+                    border-radius: 40px;
+                    font-family: Livvic;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    color: rgba(255, 255, 255, 1);
+                    transition: .7s;
+
+                    &:hover{
+                        cursor: pointer;
+                        color: sienna;
+                        border: 2px solid sienna;
+                        box-shadow: 0 0 20px sienna;   
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    .title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 140px;
+
+        .heading{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 32px;
+
+            .head{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                h2{
+                    font-family: Livvic;
+                    font-size: 64px;
+                    font-weight: 700;
+                    line-height: 100px;
+                    color: rgba(255, 255, 255, 1);
+
+                }
+
+                span{
+                    font-family: Livvic;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    text-align: left;
+                    color: rgba(246, 126, 126, 1)
+
+
+                }
+            }
+
+            .quality{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .collections{
+                    display: flex;
+                    gap: 23px;
+                    align-items: center;
+
+                    .images{
+                        display: flex;
+                    }                
+                    
+                    .text{
+                        display: flex;
+
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: left;
+                            color: rgba(255, 255, 255, 1);
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .addresses{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .inputs{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+
+                .names{
+                    display: flex;
+                    border-bottom: 2px solid  rgba(255, 255, 255, 1);
+                    padding: 0 0 17px 14px;
+                    width: 540px;
+
+                    p{
+                        font-family: Livvic;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        letter-spacing: -0.11538461595773697px;
+                        text-align: left;
+                        color: rgba(255, 255, 255, 1);
+                        opacity: 60%;
+                    }
+                }  
+                
+                .message{
+                    padding-bottom: 58px;
+                }
+            }
+
+            .address__btn{
+                display: flex;
+
+                button{
+                    padding: 9px 32px 11px;
+                    border-radius: 40px;
+                    border: none;
+                    font-family: Livvic;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    color: rgba(0, 64, 71, 1);
+                    transition: .7s ;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        color: sienna;
+                        box-shadow: 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width:950px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    
+        .collection{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 77px;
+    
+            .logo{
+                display: flex;
+                align-items: center;
+                gap: 80px;
+                
+                .logo__img{
+                    display: flex;
+                    align-items: center;
+                    
+                }  
+    
+                .navbar__home{
+                    display: flex;
+    
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        list-style: none;
+    
+                        li{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            color: rgba(255, 255, 255, 1);
+                            transition: .7s;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sienna;
+                            }
+                        }
+                    }
+                }
+            } 
+    
+            .buttons{
+                display: flex;
+    
+                .navbar__btn{
+                    display: flex;
+    
+                    button{
+                        padding: 9px 33px 11px;
+                        background: transparent;
+                        border: 1px solid rgba(255, 255, 255, 1);
+                        border-radius: 40px;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(255, 255, 255, 1);
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px sienna;   
+                            border: sienna;
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .title{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 140px;
+    
+            .heading{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+    
+                .head{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+    
+                    h2{
+                        font-family: Livvic;
+                        font-size: 64px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        text-align: left;
+                        color: rgba(255, 255, 255, 1);
+    
+                    }
+    
+                    span{
+                        font-family: Livvic;
+                        font-size: 32px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        text-align: left;
+                        color: rgba(246, 126, 126, 1)
+    
+    
+                    }
+                }
+    
+                .quality{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+    
+                    .collections{
+                        display: flex;
+                        gap: 23px;
+                        align-items: center;
+    
+                        .images{
+                            display: flex;
+                        }                
+                        
+                        .text{
+                            display: flex;
+    
+                            p{
+                                font-family: Livvic;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 28px;
+                                text-align: left;
+                                color: rgba(255, 255, 255, 1);
+    
+                            }
+                        }
+                    }
+                }
+    
+            }
+    
+            .addresses{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+    
+                .inputs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+    
+    
+                    .names{
+                        display: flex;
+                        border-bottom: 2px solid  rgba(255, 255, 255, 1);
+                        padding: 0 0 17px 14px;
+                        width: 380px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            letter-spacing: -0.11538461595773697px;
+                            text-align: left;
+                            color: rgba(255, 255, 255, 1);
+                            opacity: 60%;
+                        }
+                    }  
+                    
+                    .message{
+                        padding-bottom: 58px;
+                    }
+                }
+    
+                .address__btn{
+                    display: flex;
+    
+                    button{
+                        padding: 9px 32px 11px;
+                        border-radius: 40px;
+                        border: none;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(0, 64, 71, 1);
+                        transition: .7s ;
+                        
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    
+        .collection{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 77px;
+    
+            .logo{
+                display: flex;
+                align-items: center;
+                gap: 80px;
+                
+                .logo__img{
+                    display: flex;
+                    align-items: center;
+                    
+                }  
+    
+                .navbar__home{
+                    display: flex;
+    
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        list-style: none;
+    
+                        li{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            color: rgba(255, 255, 255, 1);
+                            transition: .7s;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sienna;
+                            }
+                        }
+                    }
+                }
+            } 
+    
+            .buttons{
+                display: flex;
+    
+                .navbar__btn{
+                    display: flex;
+    
+                    button{
+                        padding: 9px 33px 11px;
+                        background: transparent;
+                        border: 1px solid rgba(255, 255, 255, 1);
+                        border-radius: 40px;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(255, 255, 255, 1);
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px sienna;   
+                            border: sienna;
+    
+                        }
+                    }
+                }
+            }
+        }
+        
+        .title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 140px;
+    
+            .heading{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+    
+                .head{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+    
+                    h2{
+                        font-family: Livvic;
+                        font-size: 64px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        text-align: left;
+                        color: rgba(255, 255, 255, 1);
+    
+                    }
+    
+                    span{
+                        font-family: Livvic;
+                        font-size: 32px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        text-align: left;
+                        color: rgba(246, 126, 126, 1)
+    
+    
+                    }
+                }
+    
+                .quality{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+    
+                    .collections{
+                        display: flex;
+                        gap: 23px;
+                        align-items: center;
+    
+                        .images{
+                            display: flex;
+                        }                
+                        
+                        .text{
+                            display: flex;
+    
+                            p{
+                                font-family: Livvic;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 28px;
+                                text-align: left;
+                                color: rgba(255, 255, 255, 1);
+    
+                            }
+                        }
+                    }
+                }
+    
+            }
+    
+            .addresses{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+                margin-top: 64px;
+    
+                .inputs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    justify-content: center;
+    
+    
+                    .names{
+                        display: flex;
+                        border-bottom: 2px solid  rgba(255, 255, 255, 1);
+                        padding: 0 0 17px 14px;
+                        align-items: center;
+                        width: 480px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            letter-spacing: -0.11538461595773697px;
+                            text-align: left;
+                            color: rgba(255, 255, 255, 1);
+                            opacity: 60%;
+                        }
+                    }  
+                    
+                    .message{
+                        padding-bottom: 58px;
+                    }
+                }
+    
+                .address__btn{
+                    display: flex;
+    
+                    button{
+                        padding: 9px 32px 11px;
+                        border-radius: 40px;
+                        border: none;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(0, 64, 71, 1);
+                        transition: .7s ;
+                        
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:594px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    
+        .collection{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 77px;
+    
+            .logo{
+                display: flex;
+                align-items: center;
+                gap: 80px;
+                
+                .logo__img{
+                    display: flex;
+                    align-items: center;
+                    
+                }  
+    
+                .navbar__home{
+                    display: flex;
+    
+                    ul{
+                        display: none;
+                        gap: 40px;
+                        list-style: none;
+    
+                        li{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            color: rgba(255, 255, 255, 1);
+                            transition: .7s;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sienna;
+                            }
+                        }
+                    }
+                }
+            } 
+    
+            .buttons{
+                display: flex;
+    
+                .navbar__btn{
+                    display: none;
+    
+                    button{
+                        padding: 9px 33px 11px;
+                        background: transparent;
+                        border: 1px solid rgba(255, 255, 255, 1);
+                        border-radius: 40px;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(255, 255, 255, 1);
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px sienna;   
+                            border: sienna;
+    
+                        }
+                    }
+                }
+            }
+        }
+        
+        .title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 140px;
+    
+            .heading{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+    
+                .head{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+    
+                    h2{
+                        font-family: Livvic;
+                        font-size: 64px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        text-align: left;
+                        color: rgba(255, 255, 255, 1);
+    
+                    }
+    
+                    span{
+                        font-family: Livvic;
+                        font-size: 32px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        text-align: left;
+                        color: rgba(246, 126, 126, 1)
+    
+    
+                    }
+                }
+    
+                .quality{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+    
+                    .collections{
+                        display: flex;
+                        gap: 23px;
+                        align-items: center;
+    
+                        .images{
+                            display: flex;
+                        }                
+                        
+                        .text{
+                            display: flex;
+    
+                            p{
+                                font-family: Livvic;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 28px;
+                                text-align: left;
+                                color: rgba(255, 255, 255, 1);
+    
+                            }
+                        }
+                    }
+                }
+    
+            }
+    
+            .addresses{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+                margin-top: 64px;
+    
+                .inputs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    justify-content: center;
+    
+    
+                    .names{
+                        display: flex;
+                        border-bottom: 2px solid  rgba(255, 255, 255, 1);
+                        padding: 0 0 17px 14px;
+                        align-items: center;
+                        width: 370px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            letter-spacing: -0.11538461595773697px;
+                            text-align: left;
+                            color: rgba(255, 255, 255, 1);
+                            opacity: 60%;
+                        }
+                    }  
+                    
+                    .message{
+                        padding-bottom: 58px;
+                    }
+                }
+    
+                .address__btn{
+                    display: flex;
+    
+                    button{
+                        padding: 9px 32px 11px;
+                        border-radius: 40px;
+                        border: none;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(0, 64, 71, 1);
+                        transition: .7s ;
+                        
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:410px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    
+        .collection{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 77px;
+    
+            .logo{
+                display: flex;
+                align-items: center;
+                gap: 80px;
+                
+                .logo__img{
+                    display: flex;
+                    align-items: center;
+                    
+                }  
+    
+                .navbar__home{
+                    display: flex;
+    
+                    ul{
+                        display: none;
+                        gap: 40px;
+                        list-style: none;
+    
+                        li{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            color: rgba(255, 255, 255, 1);
+                            transition: .7s;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: sienna;
+                            }
+                        }
+                    }
+                }
+            } 
+    
+            .buttons{
+                display: flex;
+    
+                .navbar__btn{
+                    display: none;
+    
+                    button{
+                        padding: 9px 33px 11px;
+                        background: transparent;
+                        border: 1px solid rgba(255, 255, 255, 1);
+                        border-radius: 40px;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(255, 255, 255, 1);
+                        transition: .7s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px sienna;   
+                            border: sienna;
+    
+                        }
+                    }
+                }
+            }
+        }
+        
+        .title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 100px;
+    
+            .heading{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+    
+                .head{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+    
+                    h2{
+                        font-family: Livvic;
+                        font-size: 40px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        text-align: left;
+                        color: rgba(255, 255, 255, 1);
+    
+                    }
+    
+                    span{
+                        font-family: Livvic;
+                        font-size: 32px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        text-align: left;
+                        color: rgba(246, 126, 126, 1)
+    
+    
+                    }
+                }
+    
+                .quality{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+    
+                    .collections{
+                        display: flex;
+                        gap: 23px;
+                        align-items: center;
+    
+                        .images{
+                            display: flex;
+                        }                
+                        
+                        .text{
+                            display: flex;
+    
+                            p{
+                                font-family: Livvic;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 28px;
+                                text-align: left;
+                                color: rgba(255, 255, 255, 1);
+    
+                            }
+                        }
+                    }
+                }
+    
+            }
+    
+            .addresses{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+                margin-top: 64px;
+    
+                .inputs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    justify-content: center;
+    
+    
+                    .names{
+                        display: flex;
+                        border-bottom: 2px solid  rgba(255, 255, 255, 1);
+                        padding: 0 0 17px 14px;
+                        align-items: center;
+                        width: 270px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            letter-spacing: -0.11538461595773697px;
+                            text-align: left;
+                            color: rgba(255, 255, 255, 1);
+                            opacity: 60%;
+                        }
+                    }  
+                    
+                    .message{
+                        padding-bottom: 58px;
+                    }
+                }
+    
+                .address__btn{
+                    display: flex;
+    
+                    button{
+                        padding: 9px 32px 11px;
+                        border-radius: 40px;
+                        border: none;
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        color: rgba(0, 64, 71, 1);
+                        transition: .7s ;
+                        
+                        &:hover{
+                            cursor: pointer;
+                            color: sienna;
+                            box-shadow: 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+      
+    }
+}

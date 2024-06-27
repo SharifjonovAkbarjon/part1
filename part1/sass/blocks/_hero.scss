@@ -1,0 +1,314 @@
+.hero{
+    width: 100%;
+    background: rgba(1, 47, 52, 1);
+}
+
+.hero__body{
+    display: flex;
+    flex-direction: column; 
+
+    .rectangle{
+        display: flex;
+        margin-top: 140px;
+    }
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 140px;
+
+        .hero__heading{
+            display: flex;
+            width: 445px;
+
+            h2{
+                font-family: Livvic;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                color: rgb(255,255,255);
+
+            }
+        }   
+
+        .hero__collection{
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            margin-top: 198px;
+            
+            
+            .hero__item{
+                display: flex;
+                align-items: center;
+                gap: 22px;
+                width: 500px;
+                
+                .hero__img{
+                    display: flex;
+                }
+
+                .hero__title{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    p{
+                        font-family: Livvic;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        color:  rgba(246, 126, 126, 1);
+
+                    }
+
+                    span{
+                        font-family: Livvic;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        color: rgb(255,255,255);
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:950px) {
+    .hero__body{
+        display: flex;
+        flex-direction: column; 
+    
+        .rectangle{
+            display: flex;
+            margin-top: 140px;
+        }
+    
+        .wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 140px;
+    
+            .hero__heading{
+                display: flex;
+                width: 345px;
+    
+                h2{
+                    font-family: Livvic;
+                    font-size: 38px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    color: rgb(255,255,255);
+    
+                }
+            }   
+    
+            .hero__collection{
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                margin-top: 198px;
+                
+                
+                .hero__item{
+                    display: flex;
+                    align-items: center;
+                    gap: 22px;
+                    width: 420px;
+                    
+                    .hero__img{
+                        display: flex;
+                    }
+    
+                    .hero__title{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            color:  rgba(246, 126, 126, 1);
+    
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            color: rgb(255,255,255);
+    
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+@media (max-width:768px) {
+    .hero__body{
+        display: flex;
+        flex-direction: column; 
+    
+        .rectangle{
+            display: flex;
+            margin-top: 100px;
+        }
+    
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 140px;
+            margin-top: 20px;
+    
+            .hero__heading{
+                display: flex;
+                align-items: center;
+                width: 70%;
+    
+                h2{
+                    font-family: Livvic;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    color: rgb(255,255,255);
+    
+                }
+            }   
+    
+            .hero__collection{
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                margin-top: 64px;
+                align-items: center;
+                
+                
+                .hero__item{
+                    display: flex;
+                    align-items: center;
+                    gap: 22px;
+                    width: 90%;
+                    
+                    .hero__img{
+                        display: flex;
+                    }
+    
+                    .hero__title{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            color:  rgba(246, 126, 126, 1);
+    
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            color: rgb(255,255,255);
+    
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+@media (max-width:594px) {
+    .hero__body{
+        display: flex;
+        flex-direction: column; 
+    
+        .rectangle{
+            display: flex;
+            margin-top: 100px;
+        }
+    
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 80px;
+            margin-top: 20px;
+    
+            .hero__heading{
+                display: flex;
+                align-items: center;
+                width: 70%;
+                padding-right: 15%;
+    
+                h2{
+                    font-family: Livvic;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    color: rgb(255,255,255);
+    
+                }
+            }   
+    
+            .hero__collection{
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                margin-top: 64px;
+                align-items: center;
+                
+                
+                .hero__item{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 22px;
+                    width: 90%;
+                    
+                    .hero__img{
+                        display: flex;
+                    }
+    
+                    .hero__title{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        text-align: center;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            color:  rgba(246, 126, 126, 1);
+    
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            color: rgb(255,255,255);
+    
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

@@ -1,0 +1,715 @@
+.card{
+    width: 100%;
+    background: rgba(0, 64, 71, 1);
+}
+
+.card__body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 64px;
+
+    .heading{
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+
+        h2{
+            font-family: Livvic;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            text-align: center;
+            color: rgb(255,255,255);
+    
+        }
+    }
+
+    .cards{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 140px;
+
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            .collection{
+                display: flex;
+                flex-direction: column;
+                width: 31%;
+                height: 253px;
+                background: rgba(1, 47, 52, 1);
+                margin-bottom: 48px;
+                padding: 0 48px;
+
+                .person{
+                    display: flex;
+                    justify-content: center;
+                    
+                    img{
+                        margin: 32px 0 16px ;
+                    }
+                }
+
+                .names{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+
+                    p{
+                        font-family: Livvic;
+                        font-size: 18px;        
+                        font-weight: 700;
+                        line-height: 28px;
+                        text-align: center;
+                        color: rgba(121, 200, 199, 1);
+                    }
+                    i{
+                        font-family: Livvic;
+                        font-size: 15px;
+                        line-height: 25px;
+                        text-align: center;
+                        color: rgb(255,255,255);
+                        margin-bottom: 22px;
+
+                    }
+                     .allan{
+                        margin: 35px 0 8px;
+                    }
+
+                    span{
+                        font-family: Livvic;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        text-align: center;
+                        color: rgb(255,255,255);
+                        margin-bottom: 24px;
+                    }
+
+                }
+
+                .twitter__icons{
+                    display: flex;
+                    justify-content: center;
+                    gap: 16px;
+                    margin-bottom: 33px;
+                }
+            }
+        }
+    }   
+}
+
+@media (max-width:1004px) {
+    .card__body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 64px;
+    
+        .heading{
+            display: flex;
+            justify-content: center;
+            margin-top: 140px;
+    
+            h2{
+                font-family: Livvic;
+                font-size: 38px;
+                font-weight: 700;
+                line-height: 48px;
+                text-align: center;
+                color: rgb(255,255,255);
+        
+            }
+        }
+    
+        .cards{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 140px;
+    
+            .wrapper{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3%;
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    width: 31%;
+                    height: 253px;
+                    background: rgba(1, 47, 52, 1);
+                    margin-bottom: 48px;
+                    padding: 0 32px;
+    
+                    .person{
+                        display: flex;
+                        justify-content: center;
+                        
+                        img{
+                            margin: 32px 0 16px ;
+                        }
+                    }
+    
+                    .names{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;        
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: center;
+                            color: rgba(121, 200, 199, 1);
+                        }
+                        i{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 22px;
+    
+                        }
+                         .allan{
+                            margin: 35px 0 8px;
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 24px;
+                        }
+    
+                    }
+    
+                    .twitter__icons{
+                        display: flex;
+                        justify-content: center;
+                        gap: 16px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }   
+    }
+}
+@media (max-width:901px) {
+    .card__body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 64px;
+    
+        .heading{
+            display: flex;
+            justify-content: center;
+            margin-top: 140px;
+    
+            h2{
+                font-family: Livvic;
+                font-size: 38px;
+                font-weight: 700;
+                line-height: 48px;
+                text-align: center;
+                color: rgb(255,255,255);
+        
+            }
+        }
+    
+        .cards{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 140px;
+    
+            .wrapper{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3%;
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    width: 31%;
+                    height: 253px;
+                    background: rgba(1, 47, 52, 1);
+                    margin-bottom: 48px;
+                    padding: 0 32px;
+    
+                    .person{
+                        display: flex;
+                        justify-content: center;
+                        
+                        img{
+                            margin: 32px 0 16px ;
+                        }
+                    }
+    
+                    .names{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;        
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: center;
+                            color: rgba(121, 200, 199, 1);
+                        }
+                        i{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 22px;
+    
+                        }
+                         .allan{
+                            margin: 35px 0 8px;
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 10px;
+                        }
+    
+                    }
+    
+                    .twitter__icons{
+                        display: flex;
+                        justify-content: center;
+                        gap: 16px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }   
+    }
+}
+@media (max-width:786px) {
+    .card__body{    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 64px;
+    
+        .heading{
+            display: flex;
+            justify-content: center;
+            margin-top: 140px;
+    
+            h2{
+                font-family: Livvic;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 32px;
+                text-align: center;
+                color: rgb(255,255,255);
+        
+            }
+        }
+    
+        .cards{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+    
+            .wrapper{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3%;
+                justify-content: center;
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    width: 47%;
+                    height: 253px;
+                    background: rgba(1, 47, 52, 1);
+                    margin-bottom: 48px;
+                    padding: 0 25px;
+    
+                    .person{
+                        display: flex;
+                        justify-content: center;
+                        
+                        img{
+                            margin: 32px 0 16px ;
+                        }
+                    }
+    
+                    .names{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;        
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: center;
+                            color: rgba(121, 200, 199, 1);
+                        }
+                        i{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 22px;
+    
+                        }
+                         .allan{
+                            margin: 35px 0 8px;
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 25px;
+                        }
+    
+                    }
+    
+                    .twitter__icons{
+                        display: flex;
+                        justify-content: center;
+                        gap: 16px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }   
+    }
+}
+@media (max-width:575px) {
+    .card__body{    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 64px;
+    
+        .heading{
+            display: flex;
+            justify-content: center;
+            margin-top: 140px;
+    
+            h2{
+                font-family: Livvic;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 32px;
+                text-align: center;
+                color: rgb(255,255,255);
+        
+            }
+        }
+    
+        .cards{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+    
+            .wrapper{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3%;
+                justify-content: center;
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    width: 47%;
+                    height: 253px;
+                    background: rgba(1, 47, 52, 1);
+                    margin-bottom: 48px;
+                    padding: 0 25px;
+    
+                    .person{
+                        display: flex;
+                        justify-content: center;
+                        
+                        img{
+                            margin: 32px 0 16px ;
+                        }
+                    }
+    
+                    .names{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;        
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: center;
+                            color: rgba(121, 200, 199, 1);
+                        }
+                        i{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 22px;
+    
+                        }
+                         .allan{
+                            margin: 35px 0 8px;
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 15px;
+                        }
+    
+                    }
+    
+                    .twitter__icons{
+                        display: flex;
+                        justify-content: center;
+                        gap: 16px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }   
+    }
+}
+@media (max-width:498px) {
+    .card__body{    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 64px;
+    
+        .heading{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+    
+            h2{
+                font-family: Livvic;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 32px;
+                text-align: center;
+                color: rgb(255,255,255);
+        
+            }
+        }
+    
+        .cards{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+    
+            .wrapper{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3%;
+                justify-content: center;
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    height: 253px;
+                    background: rgba(1, 47, 52, 1);
+                    margin-bottom: 48px;
+                    padding: 0 25px;
+    
+                    .person{
+                        display: flex;
+                        justify-content: center;
+                        
+                        img{
+                            margin: 32px 0 16px ;
+                        }
+                    }
+    
+                    .names{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;        
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: center;
+                            color: rgba(121, 200, 199, 1);
+                        }
+                        i{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 22px;
+    
+                        }
+                         .allan{
+                            margin: 35px 0 8px;
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 35px;
+                        }
+    
+                    }
+    
+                    .twitter__icons{
+                        display: flex;
+                        justify-content: center;
+                        gap: 16px;
+                        margin-bottom: 45px;
+                    }
+                }
+            }
+        }   
+    }
+}
+@media (max-width:448px) {
+    .card__body{    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 64px;
+    
+        .heading{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+    
+            h2{
+                font-family: Livvic;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 32px;
+                text-align: center;
+                color: rgb(255,255,255);
+        
+            }
+        }
+    
+        .cards{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+    
+            .wrapper{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3%;
+                justify-content: center;
+    
+                .collection{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    height: 253px;
+                    background: rgba(1, 47, 52, 1);
+                    margin-bottom: 48px;
+                    padding: 0 25px;
+    
+                    .person{
+                        display: flex;
+                        justify-content: center;
+                        
+                        img{
+                            margin: 32px 0 16px ;
+                        }
+                    }
+    
+                    .names{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+    
+                        p{
+                            font-family: Livvic;
+                            font-size: 18px;        
+                            font-weight: 700;
+                            line-height: 28px;
+                            text-align: center;
+                            color: rgba(121, 200, 199, 1);
+                        }
+                        i{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 22px;
+    
+                        }
+                         .allan{
+                            margin: 35px 0 8px;
+                        }
+    
+                        span{
+                            font-family: Livvic;
+                            font-size: 15px;
+                            font-weight: 600;
+                            line-height: 25px;
+                            text-align: center;
+                            color: rgb(255,255,255);
+                            margin-bottom: 30px;
+                        }
+    
+                    }
+    
+                    .twitter__icons{
+                        display: flex;
+                        justify-content: center;
+                        gap: 16px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }   
+    }
+}

@@ -1,0 +1,1451 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background: rgb(1, 78, 86);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 129px;
+}
+.navbar .collection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 77px;
+}
+.navbar .collection .logo {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.navbar .collection .logo .logo__img {
+  display: flex;
+  align-items: center;
+}
+.navbar .collection .logo .navbar__home {
+  display: flex;
+}
+.navbar .collection .logo .navbar__home ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.navbar .collection .logo .navbar__home ul li {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+}
+.navbar .collection .logo .navbar__home ul li:hover {
+  cursor: pointer;
+  color: sienna;
+}
+.navbar .collection .logo .navbar__home ul li a {
+  color: sienna;
+  text-decoration: overline;
+}
+.navbar .collection .buttons {
+  display: flex;
+}
+.navbar .collection .buttons .navbar__btn {
+  display: flex;
+}
+.navbar .collection .buttons .navbar__btn button {
+  padding: 9px 33px 11px;
+  background: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+}
+.navbar .collection .buttons .navbar__btn button:hover {
+  cursor: pointer;
+  color: sienna;
+  box-shadow: 0 0 20px sienna;
+  border: 2px sienna;
+}
+.navbar .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 250px;
+}
+.navbar .title .heading {
+  display: flex;
+  width: 539px;
+}
+.navbar .title .heading h2 {
+  font-family: Livvic;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  color: rgb(255, 255, 255);
+}
+.navbar .title .heading h2 span {
+  color: rgb(246, 126, 126);
+}
+.navbar .title .parapgraph {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  gap: 79px;
+}
+.navbar .title .parapgraph .horizont {
+  display: flex;
+}
+.navbar .title .parapgraph .text {
+  display: flex;
+}
+.navbar .title .parapgraph .text p {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 950px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .navbar .collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 77px;
+  }
+  .navbar .collection .logo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .navbar .collection .logo .logo__img {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .collection .logo .navbar__home {
+    display: flex;
+  }
+  .navbar .collection .logo .navbar__home ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  .navbar .collection .logo .navbar__home ul li {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .logo .navbar__home ul li:hover {
+    cursor: pointer;
+    color: sienna;
+  }
+  .navbar .collection .buttons {
+    display: flex;
+  }
+  .navbar .collection .buttons .navbar__btn {
+    display: flex;
+  }
+  .navbar .collection .buttons .navbar__btn button {
+    padding: 9px 33px 11px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .buttons .navbar__btn button:hover {
+    cursor: pointer;
+    color: sienna;
+    box-shadow: 0 0 20px sienna;
+    border: sienna;
+  }
+  .navbar .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 250px;
+  }
+  .navbar .title .heading {
+    display: flex;
+    width: 399px;
+  }
+  .navbar .title .heading h2 {
+    font-family: Livvic;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+  }
+  .navbar .title .heading h2 span {
+    color: rgb(246, 126, 126);
+  }
+  .navbar .title .parapgraph {
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .navbar .title .parapgraph .horizont {
+    display: flex;
+  }
+  .navbar .title .parapgraph .text {
+    display: flex;
+  }
+  .navbar .title .parapgraph .text p {
+    font-family: Livvic;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .navbar .collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 77px;
+  }
+  .navbar .collection .logo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .navbar .collection .logo .logo__img {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .collection .logo .navbar__home {
+    display: flex;
+  }
+  .navbar .collection .logo .navbar__home ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  .navbar .collection .logo .navbar__home ul li {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .logo .navbar__home ul li:hover {
+    cursor: pointer;
+    color: sienna;
+  }
+  .navbar .collection .buttons {
+    display: flex;
+  }
+  .navbar .collection .buttons .navbar__btn {
+    display: flex;
+  }
+  .navbar .collection .buttons .navbar__btn button {
+    padding: 9px 33px 11px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .buttons .navbar__btn button:hover {
+    cursor: pointer;
+    color: sienna;
+    box-shadow: 0 0 20px sienna;
+    border: sienna;
+  }
+  .navbar .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 250px;
+    gap: 24px;
+  }
+  .navbar .title .heading {
+    display: flex;
+  }
+  .navbar .title .heading h2 {
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+  }
+  .navbar .title .heading h2 span {
+    color: rgb(246, 126, 126);
+  }
+  .navbar .title .parapgraph {
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .navbar .title .parapgraph .horizont {
+    display: none;
+  }
+  .navbar .title .parapgraph .text {
+    display: flex;
+  }
+  .navbar .title .parapgraph .text p {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 594px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .navbar .collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 77px;
+  }
+  .navbar .collection .logo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .navbar .collection .logo .logo__img {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .collection .logo .navbar__home {
+    display: flex;
+  }
+  .navbar .collection .logo .navbar__home ul {
+    display: none;
+    gap: 40px;
+    list-style: none;
+  }
+  .navbar .collection .logo .navbar__home ul li {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .logo .navbar__home ul li:hover {
+    cursor: pointer;
+    color: sienna;
+  }
+  .navbar .collection .buttons {
+    display: flex;
+  }
+  .navbar .collection .buttons .navbar__btn {
+    display: none;
+  }
+  .navbar .collection .buttons .navbar__btn button {
+    padding: 9px 33px 11px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .buttons .navbar__btn button:hover {
+    cursor: pointer;
+    color: sienna;
+    box-shadow: 0 0 20px sienna;
+    border: sienna;
+  }
+  .navbar .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 250px;
+    gap: 24px;
+  }
+  .navbar .title .heading {
+    display: flex;
+  }
+  .navbar .title .heading h2 {
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+  }
+  .navbar .title .heading h2 span {
+    color: rgb(246, 126, 126);
+  }
+  .navbar .title .parapgraph {
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .navbar .title .parapgraph .horizont {
+    display: none;
+  }
+  .navbar .title .parapgraph .text {
+    display: flex;
+  }
+  .navbar .title .parapgraph .text p {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 410px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .navbar .collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 77px;
+  }
+  .navbar .collection .logo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .navbar .collection .logo .logo__img {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .collection .logo .navbar__home {
+    display: flex;
+  }
+  .navbar .collection .logo .navbar__home ul {
+    display: none;
+    gap: 40px;
+    list-style: none;
+  }
+  .navbar .collection .logo .navbar__home ul li {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .logo .navbar__home ul li:hover {
+    cursor: pointer;
+    color: sienna;
+  }
+  .navbar .collection .buttons {
+    display: flex;
+  }
+  .navbar .collection .buttons .navbar__btn {
+    display: none;
+  }
+  .navbar .collection .buttons .navbar__btn button {
+    padding: 9px 33px 11px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .navbar .collection .buttons .navbar__btn button:hover {
+    cursor: pointer;
+    color: sienna;
+    box-shadow: 0 0 20px sienna;
+    border: sienna;
+  }
+  .navbar .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    gap: 24px;
+  }
+  .navbar .title .heading {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  }
+  .navbar .title .heading h2 {
+    font-family: Livvic;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .navbar .title .heading h2 span {
+    color: rgb(246, 126, 126);
+  }
+  .navbar .title .parapgraph {
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .navbar .title .parapgraph .horizont {
+    display: none;
+  }
+  .navbar .title .parapgraph .text {
+    display: flex;
+  }
+  .navbar .title .parapgraph .text p {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+  }
+}
+.hero {
+  width: 100%;
+  background: rgb(1, 47, 52);
+}
+
+.hero__body {
+  display: flex;
+  flex-direction: column;
+}
+.hero__body .rectangle {
+  display: flex;
+  margin-top: 140px;
+}
+.hero__body .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+.hero__body .wrapper .hero__heading {
+  display: flex;
+  width: 445px;
+}
+.hero__body .wrapper .hero__heading h2 {
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+}
+.hero__body .wrapper .hero__collection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 198px;
+}
+.hero__body .wrapper .hero__collection .hero__item {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  width: 500px;
+}
+.hero__body .wrapper .hero__collection .hero__item .hero__img {
+  display: flex;
+}
+.hero__body .wrapper .hero__collection .hero__item .hero__title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero__body .wrapper .hero__collection .hero__item .hero__title p {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(246, 126, 126);
+}
+.hero__body .wrapper .hero__collection .hero__item .hero__title span {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 950px) {
+  .hero__body {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__body .rectangle {
+    display: flex;
+    margin-top: 140px;
+  }
+  .hero__body .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 140px;
+  }
+  .hero__body .wrapper .hero__heading {
+    display: flex;
+    width: 345px;
+  }
+  .hero__body .wrapper .hero__heading h2 {
+    font-family: Livvic;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+  }
+  .hero__body .wrapper .hero__collection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 198px;
+  }
+  .hero__body .wrapper .hero__collection .hero__item {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 420px;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__img {
+    display: flex;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title p {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(246, 126, 126);
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title span {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 768px) {
+  .hero__body {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__body .rectangle {
+    display: flex;
+    margin-top: 100px;
+  }
+  .hero__body .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+    margin-top: 20px;
+  }
+  .hero__body .wrapper .hero__heading {
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+  .hero__body .wrapper .hero__heading h2 {
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+  }
+  .hero__body .wrapper .hero__collection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 64px;
+    align-items: center;
+  }
+  .hero__body .wrapper .hero__collection .hero__item {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 90%;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__img {
+    display: flex;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title p {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(246, 126, 126);
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title span {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 594px) {
+  .hero__body {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__body .rectangle {
+    display: flex;
+    margin-top: 100px;
+  }
+  .hero__body .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  .hero__body .wrapper .hero__heading {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding-right: 15%;
+  }
+  .hero__body .wrapper .hero__heading h2 {
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+  }
+  .hero__body .wrapper .hero__collection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 64px;
+    align-items: center;
+  }
+  .hero__body .wrapper .hero__collection .hero__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    width: 90%;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__img {
+    display: flex;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title p {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(246, 126, 126);
+  }
+  .hero__body .wrapper .hero__collection .hero__item .hero__title span {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+  }
+}
+.deliver {
+  width: 100%;
+  background: rgb(0, 64, 71);
+}
+
+.deliver__body {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  text-align: center;
+  align-items: center;
+}
+.deliver__body .deliver__heading {
+  margin-top: 140px;
+  width: 77%;
+  display: flex;
+}
+.deliver__body .deliver__heading h2 {
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.deliver__body .deliver__heading span {
+  color: rgb(121, 200, 199);
+}
+.deliver__body .deliver__collection {
+  display: flex;
+  gap: 30px;
+}
+.deliver__body .deliver__collection .deliver__item {
+  display: flex;
+  flex-direction: column;
+}
+.deliver__body .deliver__collection .deliver__item .twin__img {
+  display: flex;
+  justify-content: center;
+}
+.deliver__body .deliver__collection .deliver__item .twin__img img {
+  margin-bottom: -16px;
+}
+.deliver__body .deliver__collection .deliver__item .title {
+  display: flex;
+  flex-direction: column;
+}
+.deliver__body .deliver__collection .deliver__item .title p {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.deliver__body .deliver__collection .deliver__item .title a {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(121, 200, 199);
+  margin-top: 24px;
+  margin-bottom: 2px;
+}
+.deliver__body .deliver__collection .deliver__item .title span {
+  font-family: Livvic;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  margin-bottom: 32px;
+}
+.deliver__body .deliver__collection .deliver__item .person__img {
+  display: flex;
+  justify-content: center;
+}
+.deliver__body .deliver__collection .deliver__item .person__img img {
+  display: flex;
+  align-items: center;
+  width: 62px;
+  margin-bottom: 140px;
+}
+
+@media (max-width: 950px) {
+  .deliver__body {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    text-align: center;
+    align-items: center;
+  }
+  .deliver__body .deliver__heading {
+    margin-top: 140px;
+    width: 77%;
+    display: flex;
+  }
+  .deliver__body .deliver__heading h2 {
+    font-family: Livvic;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .deliver__body .deliver__heading span {
+    color: rgb(121, 200, 199);
+  }
+  .deliver__body .deliver__collection {
+    display: flex;
+    gap: 30px;
+  }
+  .deliver__body .deliver__collection .deliver__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .deliver__body .deliver__collection .deliver__item .twin__img {
+    display: flex;
+    justify-content: center;
+  }
+  .deliver__body .deliver__collection .deliver__item .twin__img img {
+    margin-bottom: -16px;
+  }
+  .deliver__body .deliver__collection .deliver__item .title {
+    display: flex;
+    flex-direction: column;
+  }
+  .deliver__body .deliver__collection .deliver__item .title p {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .deliver__body .deliver__collection .deliver__item .title a {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(121, 200, 199);
+    margin-top: 24px;
+    margin-bottom: 2px;
+  }
+  .deliver__body .deliver__collection .deliver__item .title span {
+    font-family: Livvic;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-bottom: 32px;
+  }
+  .deliver__body .deliver__collection .deliver__item .person__img {
+    display: flex;
+    justify-content: center;
+  }
+  .deliver__body .deliver__collection .deliver__item .person__img img {
+    display: flex;
+    align-items: center;
+    width: 62px;
+  }
+}
+@media (max-width: 768px) {
+  .deliver__body {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    text-align: center;
+    align-items: center;
+  }
+  .deliver__body .deliver__heading {
+    margin-top: 140px;
+    width: 77%;
+    display: flex;
+  }
+  .deliver__body .deliver__heading h2 {
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .deliver__body .deliver__heading span {
+    color: rgb(121, 200, 199);
+  }
+  .deliver__body .deliver__collection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .deliver__body .deliver__collection .deliver__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  .deliver__body .deliver__collection .deliver__item .twin__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .deliver__body .deliver__collection .deliver__item .twin__img img {
+    margin-bottom: -16px;
+  }
+  .deliver__body .deliver__collection .deliver__item .title {
+    display: flex;
+    flex-direction: column;
+  }
+  .deliver__body .deliver__collection .deliver__item .title p {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .deliver__body .deliver__collection .deliver__item .title a {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: rgb(121, 200, 199);
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  .deliver__body .deliver__collection .deliver__item .title span {
+    font-family: Livvic;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-bottom: 26px;
+  }
+  .deliver__body .deliver__collection .deliver__item .person__img {
+    display: flex;
+    justify-content: center;
+  }
+  .deliver__body .deliver__collection .deliver__item .person__img img {
+    display: flex;
+    align-items: center;
+    width: 62px;
+    margin-bottom: 38px;
+  }
+}
+.link {
+  width: 100%;
+  background: rgb(246, 126, 126);
+}
+
+.link__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link__body .text {
+  display: flex;
+}
+.link__body .text p {
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(1, 47, 52);
+  margin: 76px 0;
+}
+.link__body .link__btn {
+  display: flex;
+}
+.link__body .link__btn button {
+  padding: 9px 33px 11px 32px;
+  background: transparent;
+  border-radius: 40px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(1, 47, 52);
+  border: 2px solid rgb(1, 47, 52);
+  transition: 0.7s;
+}
+.link__body .link__btn button:hover {
+  cursor: pointer;
+  color: blue;
+  border: 2px solid blue;
+  box-shadow: 0 0 20px;
+}
+
+@media (max-width: 768px) {
+  .link__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .link__body .text {
+    display: flex;
+  }
+  .link__body .text p {
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(1, 47, 52);
+    margin: 76px 0;
+  }
+  .link__body .link__btn {
+    display: flex;
+  }
+  .link__body .link__btn button {
+    padding: 9px 33px 11px 32px;
+    background: transparent;
+    border-radius: 40px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(1, 47, 52);
+    border: 2px solid rgb(1, 47, 52);
+    transition: 0.7s;
+  }
+  .link__body .link__btn button:hover {
+    cursor: pointer;
+    color: blue;
+    border: 2px solid blue;
+    box-shadow: 0 0 20px;
+  }
+}
+@media (max-width: 500px) {
+  .link__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .link__body .text {
+    display: flex;
+  }
+  .link__body .text p {
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(1, 47, 52);
+    margin: 76px 0 10px;
+  }
+  .link__body .link__btn {
+    display: flex;
+  }
+  .link__body .link__btn button {
+    padding: 9px 33px 11px 32px;
+    background: transparent;
+    border-radius: 40px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(1, 47, 52);
+    border: 2px solid rgb(1, 47, 52);
+    transition: 0.7s;
+    margin-bottom: 76px;
+  }
+  .link__body .link__btn button:hover {
+    cursor: pointer;
+    color: blue;
+    border: 2px solid blue;
+    box-shadow: 0 0 20px;
+  }
+}
+.footer {
+  width: 100%;
+  background: rgb(0, 37, 41);
+  padding: 48px 0;
+}
+
+.footer__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__body .footer__title {
+  display: flex;
+  gap: 125px;
+}
+.footer__body .footer__title .logos {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer__body .footer__title .logos .collection {
+  display: flex;
+}
+.footer__body .footer__title .logos .collection ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.footer__body .footer__title .logos .collection ul li {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+}
+.footer__body .footer__title .logos .collection ul li:hover {
+  color: salmon;
+  cursor: pointer;
+}
+.footer__body .footer__title .text {
+  display: flex;
+}
+.footer__body .footer__title .text ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  opacity: 70%;
+}
+.footer__body .footer__title .text ul li {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+}
+.footer__body .footer__title .text ul li:hover {
+  cursor: pointer;
+  color: salmon;
+}
+.footer__body .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+  text-align: right;
+}
+.footer__body .icons .iconka {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+}
+.footer__body .icons .parapgraph {
+  display: flex;
+  opacity: 60%;
+}
+.footer__body .icons .parapgraph p {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 632px) {
+  .footer__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer__body .footer__title {
+    display: flex;
+    gap: 60px;
+  }
+  .footer__body .footer__title .logos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer__body .footer__title .logos .collection {
+    display: flex;
+  }
+  .footer__body .footer__title .logos .collection ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  .footer__body .footer__title .logos .collection ul li {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .footer__body .footer__title .logos .collection ul li:hover {
+    color: salmon;
+    cursor: pointer;
+  }
+  .footer__body .footer__title .text {
+    display: flex;
+  }
+  .footer__body .footer__title .text ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    opacity: 70%;
+  }
+  .footer__body .footer__title .text ul li {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .footer__body .footer__title .text ul li:hover {
+    cursor: pointer;
+    color: salmon;
+  }
+  .footer__body .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    text-align: right;
+  }
+  .footer__body .icons .iconka {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+  }
+  .footer__body .icons .parapgraph {
+    display: flex;
+    opacity: 60%;
+  }
+  .footer__body .icons .parapgraph p {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 768px) {
+  .footer__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer__body .footer__title {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .footer__body .footer__title .logos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .footer__body .footer__title .logos .collection {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__body .footer__title .logos .collection ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    text-align: center;
+  }
+  .footer__body .footer__title .logos .collection ul li {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .footer__body .footer__title .logos .collection ul li:hover {
+    color: salmon;
+    cursor: pointer;
+  }
+  .footer__body .footer__title .text {
+    display: flex;
+  }
+  .footer__body .footer__title .text ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    opacity: 70%;
+    text-align: center;
+  }
+  .footer__body .footer__title .text ul li {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+  }
+  .footer__body .footer__title .text ul li:hover {
+    cursor: pointer;
+    color: salmon;
+  }
+  .footer__body .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+  }
+  .footer__body .icons .iconka {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .footer__body .icons .parapgraph {
+    display: flex;
+    opacity: 60%;
+  }
+  .footer__body .icons .parapgraph p {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+}/*# sourceMappingURL=main.css.map */
